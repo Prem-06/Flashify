@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../image/instagram.png"
+import logo from "../image/background.png"
 import './signup.css'
 import { useEffect,useState } from 'react'
 import {Link,useNavigate} from "react-router-dom"

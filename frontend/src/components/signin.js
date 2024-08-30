@@ -2,7 +2,7 @@ import React from 'react'
 import './signin.css'
 import { useState,useContext } from 'react'
 import Logincontext from '../context/logincontext.js'
-import logo from "../image/instagram.png"
+import logo from "../image/background.png"
 import {Link,useNavigate} from "react-router-dom"
 import {toast } from 'react-toastify';
 const Signin = () => {
