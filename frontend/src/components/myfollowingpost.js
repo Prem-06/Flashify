@@ -20,7 +20,7 @@ const navigate=useNavigate();
     }
 
     // fetch post 
-    fetch("https://instagrambackend-ypjm.onrender.com/myfollowingpost",{
+    fetch("https://flashify-5lv3.onrender.com/myfollowingpost",{
       headers:{
         "Authorization":"Bearer "+localStorage.getItem('jwt')
       }

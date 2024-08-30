@@ -18,7 +18,7 @@ const Signin = () => {
         notifyA("Invalid Email")
         return;
     }
-      fetch("https://instagrambackend-ypjm.onrender.com/signin",{
+      fetch("https://flashify-5lv3.onrender.com/signin",{
         method:"post",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
